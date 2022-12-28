@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0BB093A558033119058F700 /* Pods_Skocko1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC68FBC2B170D049C972D16 /* Pods_Skocko1.framework */; };
+		E612E576294374FA00667CE3 /* RezVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E612E575294374FA00667CE3 /* RezVC.swift */; };
+		E645CCF7293A5968003CA155 /* SkockoDvaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658F4652936030800F48ECA /* SkockoDvaVC.swift */; };
+		E658F4522935FFEF00F48ECA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658F4512935FFEF00F48ECA /* AppDelegate.swift */; };
+		E658F4542935FFEF00F48ECA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658F4532935FFEF00F48ECA /* SceneDelegate.swift */; };
+		E658F4562935FFEF00F48ECA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658F4552935FFEF00F48ECA /* ViewController.swift */; };
+		E658F4592935FFEF00F48ECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E658F4572935FFEF00F48ECA /* Main.storyboard */; };
+		E658F45B2935FFEF00F48ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E658F45A2935FFEF00F48ECA /* Assets.xcassets */; };
+		E658F45E2935FFEF00F48ECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E658F45C2935FFEF00F48ECA /* LaunchScreen.storyboard */; };
+		E68C8D2D29531C90008DC3E1 /* ListaIgraca.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68C8D2C29531C90008DC3E1 /* ListaIgraca.swift */; };
+		E68C8D3329533F4B008DC3E1 /* IgracCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68C8D3229533F4B008DC3E1 /* IgracCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DE4C21FB39D8600C93051F6 /* Pods-Skocko1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skocko1.release.xcconfig"; path = "Target Support Files/Pods-Skocko1/Pods-Skocko1.release.xcconfig"; sourceTree = "<group>"; };
+		59926104FC63CA4683977965 /* Pods-Skocko1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skocko1.debug.xcconfig"; path = "Target Support Files/Pods-Skocko1/Pods-Skocko1.debug.xcconfig"; sourceTree = "<group>"; };
+		5EC68FBC2B170D049C972D16 /* Pods_Skocko1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skocko1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E612E575294374FA00667CE3 /* RezVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RezVC.swift; sourceTree = "<group>"; };
+		E658F44E2935FFEF00F48ECA /* Skocko1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skocko1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E658F4512935FFEF00F48ECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E658F4532935FFEF00F48ECA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E658F4552935FFEF00F48ECA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E658F4582935FFEF00F48ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E658F45A2935FFEF00F48ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E658F45D2935FFEF00F48ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E658F45F2935FFEF00F48ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E658F4652936030800F48ECA /* SkockoDvaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkockoDvaVC.swift; sourceTree = "<group>"; };
+		E68C8D2C29531C90008DC3E1 /* ListaIgraca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaIgraca.swift; sourceTree = "<group>"; };
+		E68C8D3229533F4B008DC3E1 /* IgracCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgracCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E658F44B2935FFEF00F48ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0BB093A558033119058F700 /* Pods_Skocko1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EDC0D7288FE2F1F16C5D484 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59926104FC63CA4683977965 /* Pods-Skocko1.debug.xcconfig */,
+				1DE4C21FB39D8600C93051F6 /* Pods-Skocko1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9B20DE42AA50606BE5F4FC23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EC68FBC2B170D049C972D16 /* Pods_Skocko1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E658F4452935FFEF00F48ECA = {
+			isa = PBXGroup;
+			children = (
+				E658F4502935FFEF00F48ECA /* Skocko1 */,
+				E658F44F2935FFEF00F48ECA /* Products */,
+				3EDC0D7288FE2F1F16C5D484 /* Pods */,
+				9B20DE42AA50606BE5F4FC23 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E658F44F2935FFEF00F48ECA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E658F44E2935FFEF00F48ECA /* Skocko1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E658F4502935FFEF00F48ECA /* Skocko1 */ = {
+			isa = PBXGroup;
+			children = (
+				E658F4512935FFEF00F48ECA /* AppDelegate.swift */,
+				E658F4532935FFEF00F48ECA /* SceneDelegate.swift */,
+				E68C8D2C29531C90008DC3E1 /* ListaIgraca.swift */,
+				E658F4552935FFEF00F48ECA /* ViewController.swift */,
+				E658F4652936030800F48ECA /* SkockoDvaVC.swift */,
+				E612E575294374FA00667CE3 /* RezVC.swift */,
+				E68C8D3229533F4B008DC3E1 /* IgracCell.swift */,
+				E658F4572935FFEF00F48ECA /* Main.storyboard */,
+				E658F45A2935FFEF00F48ECA /* Assets.xcassets */,
+				E658F45C2935FFEF00F48ECA /* LaunchScreen.storyboard */,
+				E658F45F2935FFEF00F48ECA /* Info.plist */,
+			);
+			path = Skocko1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E658F44D2935FFEF00F48ECA /* Skocko1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E658F4622935FFEF00F48ECA /* Build configuration list for PBXNativeTarget "Skocko1" */;
+			buildPhases = (
+				11B2AEC266B3D1D21031EB30 /* [CP] Check Pods Manifest.lock */,
+				E658F44A2935FFEF00F48ECA /* Sources */,
+				E658F44B2935FFEF00F48ECA /* Frameworks */,
+				E658F44C2935FFEF00F48ECA /* Resources */,
+				8DB4D7A524BE08BC1BB92DCF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skocko1;
+			productName = Skocko1;
+			productReference = E658F44E2935FFEF00F48ECA /* Skocko1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E658F4462935FFEF00F48ECA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					E658F44D2935FFEF00F48ECA = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = E658F4492935FFEF00F48ECA /* Build configuration list for PBXProject "Skocko1" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E658F4452935FFEF00F48ECA;
+			productRefGroup = E658F44F2935FFEF00F48ECA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E658F44D2935FFEF00F48ECA /* Skocko1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E658F44C2935FFEF00F48ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E658F45E2935FFEF00F48ECA /* LaunchScreen.storyboard in Resources */,
+				E658F45B2935FFEF00F48ECA /* Assets.xcassets in Resources */,
+				E658F4592935FFEF00F48ECA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11B2AEC266B3D1D21031EB30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Skocko1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DB4D7A524BE08BC1BB92DCF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Skocko1/Pods-Skocko1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Skocko1/Pods-Skocko1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Skocko1/Pods-Skocko1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E658F44A2935FFEF00F48ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E612E576294374FA00667CE3 /* RezVC.swift in Sources */,
+				E68C8D3329533F4B008DC3E1 /* IgracCell.swift in Sources */,
+				E658F4562935FFEF00F48ECA /* ViewController.swift in Sources */,
+				E658F4522935FFEF00F48ECA /* AppDelegate.swift in Sources */,
+				E645CCF7293A5968003CA155 /* SkockoDvaVC.swift in Sources */,
+				E68C8D2D29531C90008DC3E1 /* ListaIgraca.swift in Sources */,
+				E658F4542935FFEF00F48ECA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E658F4572935FFEF00F48ECA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E658F4582935FFEF00F48ECA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E658F45C2935FFEF00F48ECA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E658F45D2935FFEF00F48ECA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E658F4602935FFEF00F48ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E658F4612935FFEF00F48ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E658F4632935FFEF00F48ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59926104FC63CA4683977965 /* Pods-Skocko1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WKQ2F52MC3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Skocko1/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Skocko;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.medenica.lola.Skocko1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E658F4642935FFEF00F48ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DE4C21FB39D8600C93051F6 /* Pods-Skocko1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WKQ2F52MC3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Skocko1/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Skocko;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.medenica.lola.Skocko1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E658F4492935FFEF00F48ECA /* Build configuration list for PBXProject "Skocko1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E658F4602935FFEF00F48ECA /* Debug */,
+				E658F4612935FFEF00F48ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E658F4622935FFEF00F48ECA /* Build configuration list for PBXNativeTarget "Skocko1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E658F4632935FFEF00F48ECA /* Debug */,
+				E658F4642935FFEF00F48ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E658F4462935FFEF00F48ECA /* Project object */;
+}
