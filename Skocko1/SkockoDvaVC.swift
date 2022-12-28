@@ -124,6 +124,9 @@ class SkockoDvaVC: UIViewController, PrebaciPodatke{
     var novaa : Bool?
     var uspjesno : Bool?
     var rb : Int = 0
+    var poslednjiBiraniElement : Int = 0
+    var poslednjiBiraniRed : Int = 0
+    var indextrenutnog : Int = 0
     
     @IBOutlet weak var spinner: UIActivityIndicatorView!
     
@@ -198,7 +201,7 @@ class SkockoDvaVC: UIViewController, PrebaciPodatke{
         
         for button in prvired {
             button.backgroundColor=UIColor.gray
-//            button.addTarget(self, action: #selector(buttonClicked), for: .touchUpInside)
+            button.addTarget(self, action: #selector(buttonClicked), for: .touchUpInside)
         }
         
         for button in niz1sporednih {
@@ -301,23 +304,37 @@ class SkockoDvaVC: UIViewController, PrebaciPodatke{
         
         
     }
-//
-//    @objc func buttonClicked(_sender : UIButton)   {
-//
-//
-//
-//        for nasiindeks in 0...23{
-//            let polja1 =  prvired.first(where: {$0.backgroundColor==UIColor.gray})
-//            indeksMijenjanja = prvired.index(before: (polja1?.index(ofAccessibilityElement: UIButton.self))!)
-//            if(indeksMijenjanja == _sender.index(ofAccessibilityElement: UIButton.self)){
-//
-//                polja1!.backgroundColor = UIColor.gray
-//            }
-//
-//
-//        }
-//
-//    }
+
+    @objc func buttonClicked(_sender : UIButton) -> Bool   {
+
+        
+
+            let polja2  = prvired.firstIndex(where: {$0.backgroundColor==UIColor.gray})
+            poslednjiBiraniElement = prvired.index(before: polja2!)
+            if(poslednjiBiraniElement%4 == 3){
+                   return false
+               }
+            if(prvired[poslednjiBiraniElement] == _sender){
+                poslednjiBiraniRed = poslednjiBiraniElement / 4
+               
+                if(poslednjiBiraniRed > 0){
+                    indextrenutnog = poslednjiBiraniRed * 4 - 1
+                    prvired[poslednjiBiraniElement].backgroundColor = UIColor.gray
+                        for i in 0...indextrenutnog{
+                            prvired[i].isUserInteractionEnabled = false
+                        }}
+                else
+                {
+                        prvired[poslednjiBiraniElement].backgroundColor = UIColor.gray
+                    
+                }
+                indexutrenutnomredu = indexutrenutnomredu - 1
+                return true
+            }
+
+        return false
+
+    }
  
     
     func partija(nova: Bool) {
@@ -340,10 +357,6 @@ class SkockoDvaVC: UIViewController, PrebaciPodatke{
         
         
    
-        
-        
-        
-        
         
         vratiSporedne()
         prikazi()
@@ -419,19 +432,23 @@ class SkockoDvaVC: UIViewController, PrebaciPodatke{
     }
     
     func vratiSporedne(){
+       
+           
+        
         
         
         if (indexutrenutnomredu == 3) {
             indexutrenutnomredu = 0
+
             
             for nasindex in 0 ... 23 {
+                
                 
                 
                 let redindex = (nasindex ) / 4
                 let ureduindex = (nasindex ) % 4
                 
-                
-                
+            
                 
                 
                 
@@ -454,7 +471,7 @@ class SkockoDvaVC: UIViewController, PrebaciPodatke{
         if(sestiredcetvrtopolje.backgroundColor != UIColor.gray){
             
             
-            for i in 0...5{
+            for _ in 0...5{
                 namjestiboje()
                 if(uspjesno==true){
                     return
