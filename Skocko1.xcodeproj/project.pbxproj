@@ -375,7 +375,7 @@
 				DEVELOPMENT_TEAM = WKQ2F52MC3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Skocko1/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Skocko;
+				INFOPLIST_KEY_CFBundleDisplayName = MissMind;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -406,7 +406,7 @@
 				DEVELOPMENT_TEAM = WKQ2F52MC3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Skocko1/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Skocko;
+				INFOPLIST_KEY_CFBundleDisplayName = MissMind;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
