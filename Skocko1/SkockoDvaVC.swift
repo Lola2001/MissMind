@@ -198,7 +198,7 @@ class SkockoDvaVC: UIViewController, PrebaciPodatke{
         
         for button in prvired {
             button.backgroundColor=UIColor.gray
-            button.addTarget(self, action: #selector(buttonClicked), for: .touchUpInside)
+//            button.addTarget(self, action: #selector(buttonClicked), for: .touchUpInside)
         }
         
         for button in niz1sporednih {
@@ -296,42 +296,29 @@ class SkockoDvaVC: UIViewController, PrebaciPodatke{
         
         pocetak=Date()
         
-        //        for button in prvired {
-        //            button.addTarget(self, action: #selector(buttonClicked), for: .touchUpInside)
-        //        }
-        
-        
         
         
         
         
     }
-    
-    @objc func buttonClicked(_sender : UIButton)   {
-        
-        
-        
-        for nasiindeks in 0...23{
-            let polja1 =  prvired.first(where: {$0.backgroundColor==UIColor.gray})
-            indeksMijenjanja = prvired.index(before: (polja1?.index(ofAccessibilityElement: UIButton.self))!)
-            if(indeksMijenjanja == _sender.index(ofAccessibilityElement: UIButton.self)){
-                
-                polja1!.backgroundColor = UIColor.gray
-            }
-            
-            
-        }
-        
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
+//
+//    @objc func buttonClicked(_sender : UIButton)   {
+//
+//
+//
+//        for nasiindeks in 0...23{
+//            let polja1 =  prvired.first(where: {$0.backgroundColor==UIColor.gray})
+//            indeksMijenjanja = prvired.index(before: (polja1?.index(ofAccessibilityElement: UIButton.self))!)
+//            if(indeksMijenjanja == _sender.index(ofAccessibilityElement: UIButton.self)){
+//
+//                polja1!.backgroundColor = UIColor.gray
+//            }
+//
+//
+//        }
+//
+//    }
+ 
     
     func partija(nova: Bool) {
         novaa = nova
@@ -342,19 +329,7 @@ class SkockoDvaVC: UIViewController, PrebaciPodatke{
         
         
     }
-    
-    
-    
-    
-    
-    //    @objc
-    //    func rightHandAction() {
-    //        performSegue(withIdentifier: "dvaTri", sender: self)
-    //    }
-    
-    
-    
-    
+ 
     
     @IBAction func crvenopoljepress(_ sender: Any) {
         
